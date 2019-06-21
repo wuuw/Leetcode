@@ -33,10 +33,23 @@ class Solution(object):
         if not head: return False
         slow, fast = head, head.next
         while slow and fast:
-            if slow.val == fast.val:
+            if slow == fast:
                 return slow
             if not fast.next:
                 return False
             else:
                 slow, fast = slow.next, fast.next.next
         return False
+
+
+"""
+if __name__ == "__main__":
+    s = Solution()
+    head = ListNode(0)
+    head.next = ListNode(1)
+    head.next.next = ListNode(2)
+    head.next.next.next = ListNode(3)
+    head.next.next.next.next = head.next.next
+
+    print(s.detectCycle(head))
+"""

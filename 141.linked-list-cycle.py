@@ -1,4 +1,3 @@
-# Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
         self.val = x
@@ -18,7 +17,7 @@ class Solution(object):
         '''run them'''
         while fast and slow:
             '''fast and slow meet'''
-            if fast.val == slow.val:
+            if fast == slow:
                 return True
             ''''''
             if not fast.next:
