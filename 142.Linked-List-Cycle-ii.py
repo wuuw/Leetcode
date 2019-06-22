@@ -3,6 +3,9 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+########################
+###     快慢指针     ###
+########################
 
 class Solution(object):
     def detectCycle(self, head):
