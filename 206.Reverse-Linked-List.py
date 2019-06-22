@@ -4,9 +4,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-##########################
-###   1.递归方法实现   ###
-##########################
+''' 1. 递归方法实现 '''
 
 class Solution1:
     def reverseList(self, head: ListNode) -> ListNode:
@@ -32,9 +30,7 @@ class Solution1:
             return None
 
 
-##########################
-###   2.栈方法实现   #####
-##########################
+''' 2. 栈方法实现'''
 
 class Solution2(object):
     def reverseList(self, head: ListNode) -> ListNode:
@@ -54,3 +50,23 @@ class Solution2(object):
             p.next = head
             head = p
         return p
+
+
+''' 3. 迭代方法实现 '''
+
+class Solution3:
+    def reverseList(self, head: ListNode) -> ListNode:
+        """
+            依次将节点指向上一个节点
+            防止链断裂，需要保存当前节点的 next 节点
+        """
+        p, rev = head, None
+        while p:
+            rev, rev.next, p = p, rev, p.next
+            """
+            next = p.next
+            p.next = rev
+            rev = p
+            p = next
+            """
+        return rev
