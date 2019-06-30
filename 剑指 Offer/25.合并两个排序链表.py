@@ -39,30 +39,22 @@ class Solution1(object):
 class Solution2(object):
 
     def mergeTwoLists(self, l1:ListNode, l2:ListNode) -> ListNode:
-        # Definition for singly-linked list.
-        # class ListNode:
-        #     def __init__(self, x):
-        #         self.val = x
-        #         self.next = None
+        list = ListNode(0)
+        cur = list
 
-        class Solution:
-            def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-                list = ListNode(0)
-                cur = list
+        while l1 and l2:
+            if l1.val > l2.val:
+                cur.next = l2
+                cur = cur.next
+                l2 = l2.next
+            else:
+                cur.next = l1
+                cur = cur.next
+                l1 = l1.next
 
-                while l1 and l2:
-                    if l1.val > l2.val:
-                        cur.next = l2
-                        cur = cur.next
-                        l2 = l2.next
-                    else:
-                        cur.next = l1
-                        cur = cur.next
-                        l1 = l1.next
+        if not l1:
+            cur.next = l2
+        else:
+            cur.next = l1
 
-                if not l1:
-                    cur.next = l2
-                else:
-                    cur.next = l1
-
-                return list.next
+        return list.next
