@@ -1,4 +1,4 @@
-# Leetcode-Python
+# Leetcode-Python（完善中...）
 [![Python](https://img.shields.io/badge/python-3.5|3.6|3.7-blue.svg)](-)
 
 
