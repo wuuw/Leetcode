@@ -9,30 +9,23 @@ class TreeNode:
 class Solution:
 
     def serialize(self, root: 'TreeNode'):
-        return self.__serialize_helper(root, [])
+        if not root:
+            return '$,'
+        return str(root.val) + ',' + self.serialize(root.left) + self.serialize(root.right)
 
 
     def deserialize(self, data):
+        data = data.split(',')[0:-1]
         root, _ = self.__deserialize_helper(TreeNode(None), data)
         return  root
 
 
-    def __serialize_helper(self, root: 'TreeNode', data):
-        if not root:
-            data.append('null')
-        else:
-            data.append(root.val)
-            data = self.__serialize_helper(root.left, data)
-            data = self.__serialize_helper(root.right, data)
-        return data
-
-
     def __deserialize_helper(self, root: 'TreeNode', data):
         val = data.pop(0)
-        if val == 'null':
+        if val == '$':
             return None, data
         else:
-            root.val = val
+            root.val = int(val)
             root.left, data = self.__deserialize_helper(TreeNode(None), data)
             root.right, data = self.__deserialize_helper(TreeNode(None), data)
             return root, data
