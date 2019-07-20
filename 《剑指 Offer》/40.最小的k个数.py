@@ -48,3 +48,8 @@ class Solution1:
             nums[end] = nums[start]
         nums[start] = pivot
         return start
+
+
+"""
+哈希表、堆排序思想
+"""

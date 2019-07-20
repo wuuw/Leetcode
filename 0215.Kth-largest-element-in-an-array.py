@@ -1,5 +1,5 @@
 """
-快排思想
+快排 partition 思想
 1. 需要熟悉快速排序的方法
 2. 每次快排结束，枢纽左侧的数都比枢纽小，右侧的数都比它大
 3. 利用这个特性，进行如下判断：
@@ -47,3 +47,8 @@ class Solution1:
             nums[end] = nums[start]
         nums[start] = pivot
         return start
+
+
+"""
+哈希表、堆排序思想
+"""
