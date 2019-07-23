@@ -18,7 +18,7 @@ class Huffman:
             merged.left = forest[0]
             return merged
 
-        while len(forest) >= 2:
+        while len(forest) > 1:
             # 对森林进行排序
             forest = self.sort_forest(forest)
             # 获取森林中两个最小树
@@ -34,12 +34,9 @@ class Huffman:
 
     def sort_forest(self, forest):
         """
-        :param complex_list: 复杂 list，元素为 int 或者 Node 对象
+        基于森林中每棵树根节点的值排序
+        :param forest: 森林-树的列表
         :return: 增序列表
-        """
-        """
-        如果 k 为 int，则使用 k 作为 key
-        否则（k 为 Node）使用 k.val 作为 key
         """
         return sorted(forest, key=lambda k: k.val, reverse=True)
 
