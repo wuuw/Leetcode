@@ -79,9 +79,9 @@
 | #0295 |                 数据流的中位数                 | [Find median from data stream](./0295.Find-median-from-data-stream.py) |   41%    |  🍅   |         堆排序（❗️）         |
 | #0297 |            二叉树的序列化与反序列化            | [Serialize and deserialize<br />binary tree](./0297.Serialize-and-deserialize-binary-tree.py) |   27%    |  🍅   |           递归法            |
 | #0387 |            字符串中的第一个唯一字符            | [First unique character<br />in a string](./0387.First-unique-character-in-a-string.py) |          |  🍏   |                             |
-| #0400 |    难度简单136收藏分享切换为英文第 N 个数字    |               [Nth digit](./0400.Nth-digit.py)               |          |  🍏   |                             |
+| #0400 |                  第 N 个数字                   |               [Nth digit](./0400.Nth-digit.py)               |          |  🍏   |                             |
 | #0426 | 通过次数将二叉搜索树<br />转化为排序的双向链表 | [Convert binary search tree to <br />sorted doubly-linked-list](./0426.Convert-binary-search-tree-to-sorted-doubly-linked-list.py) |   52%    |  🍊   |           递归法            |
-| #0459 |              38,693重复的子字符串              | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
+| #0459 |                 重复的子字符串                 | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
 | #0572 |                 另一个树的子树                 | [Subtree of another tree](./0572.Subtree-of-another-tree.py) |   24%    |  🍏   |           递归法            |
 | #0961 |            提交次数重复 N 次的元素             | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
 | #1137 |               第 N 个泰波那契数                |  [N-th tribonacci number](./1137.N-th-tribonacci-number.py)  |          |  🍏   |          动态规划           |
