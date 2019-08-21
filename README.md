@@ -61,7 +61,7 @@
 
 |  No   |                  题名                  |                           解决方法                           | 出现频率 | 难度 |            备注             |
 | :---: | :------------------------------------: | :----------------------------------------------------------: | :------: | :--: | :-------------------------: |
-| #0003 |          无重复字符的最长子串          | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |      |                             |
+| #0003 |          无重复字符的最长子串          | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |  🍊   |          d动态规划          |
 | #0010 |             正则表达式匹配             | [Regular expression matching](./0010.Regular-expression-matching.py) |   60%    |  🍅   |        递归（低效❗️）        |
 | #0046 |                 全排列                 |            [Permutations](./0046.Permutations.py)            |   62%    |  🍊   |           递归法            |
 | #0053 |               最大子序和               |        [Maximum subarray](./0053.Maximum-subarray.py)        |          |  🍏   |          动态规划           |
@@ -72,6 +72,7 @@
 | #0179 |                 最大数                 |          [Largest number](./0179.Largest-number.py)          |          |  🍊   |                             |
 | #0215 |        数组中的第 K 个最大元素         | [Kth largest element in an array](./0215.Kth-largest-element-in-an-array.py) |   47%    |  🍊   | 快速排序<br />（海量数据❗️） |
 | #0233 |             数字 1 的个数              |     [Number of digit one](./0233.Number-of-digit-one.py)     |          |  🍅   |                             |
+| #0263 |                  丑数                  |             [Ugly number](./0263.Ugly-number.py)             |          |  🍏   |                             |
 | #0295 |             数据流的中位数             | [Find median from data stream](./0295.Find-median-from-data-stream.py) |   41%    |  🍅   |         堆排序（❗️）         |
 | #0297 |        二叉树的序列化与反序列化        | [Serialize and deserialize<br />binary tree](./0297.Serialize-and-deserialize-binary-tree.py) |   27%    |  🍅   |           递归法            |
 | #0400 |              第 N 个数字               |               [Nth digit](./0400.Nth-digit.py)               |          |  🍏   |                             |
