@@ -63,7 +63,7 @@
 
 |  No   |                      题名                      |                           解决方法                           | 出现频率 | 难度 |            备注             |
 | :---: | :--------------------------------------------: | :----------------------------------------------------------: | :------: | :--: | :-------------------------: |
-| #0003 |              无重复字符的最长子串              | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |  🍊   |          d动态规划          |
+| #0003 |              无重复字符的最长子串              | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |  🍊   |          动态规划           |
 | #0010 |                 正则表达式匹配                 | [Regular expression matching](./0010.Regular-expression-matching.py) |   60%    |  🍅   |        递归（低效❗️）        |
 | #0046 |                     全排列                     |            [Permutations](./0046.Permutations.py)            |   62%    |  🍊   |           递归法            |
 | #0053 |                   最大子序和                   |        [Maximum subarray](./0053.Maximum-subarray.py)        |          |  🍏   |          动态规划           |
@@ -83,6 +83,6 @@
 | #0426 | 通过次数将二叉搜索树<br />转化为排序的双向链表 | [Convert binary search tree to <br />sorted doubly-linked-list](./0426.Convert-binary-search-tree-to-sorted-doubly-linked-list.py) |   52%    |  🍊   |           递归法            |
 | #0459 |                 重复的子字符串                 | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
 | #0572 |                 另一个树的子树                 | [Subtree of another tree](./0572.Subtree-of-another-tree.py) |   24%    |  🍏   |           递归法            |
-| #0961 |            提交次数重复 N 次的元素             | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
+| #0961 |                重复 N 次的元素                 | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
 | #1137 |               第 N 个泰波那契数                |  [N-th tribonacci number](./1137.N-th-tribonacci-number.py)  |          |  🍏   |          动态规划           |
 
