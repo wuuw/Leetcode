@@ -76,4 +76,5 @@
 | #0459 |             重复的子字符串             | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
 | #0572 |             另一个树的子树             | [Subtree of another tree](./0572.Subtree-of-another-tree.py) |   24%    |  🍏   |           递归法            |
 | #0961 |            重复 N 次的元素             | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
+| #1137 |           第 N 个泰波那契数            |  [N-th tribonacci number](./1137.N-th-tribonacci-number.py)  |          |  🍏   |          动态规划           |
 
