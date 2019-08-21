@@ -47,6 +47,7 @@
 | #43  |      1~N 整数中 1 出现的次数       | [1~N 整数中 1 出现的次数](./《剑指%20Offer》/43.1-N整数中1出现的次数.py) |          |           递归法            |
 | #44  |       数字序列中某一位的数字       | [数字序列中某一位的数字](./《剑指%20Offer》/44.数字序列中某一位的数字.py) |          |           迭代法            |
 | #45  |         把数组排成最小的数         | [把数组排成最小的数](./《剑指%20Offer》/45.把数组排成最小的数.py) |          |              -              |
+| #46  |         把数字翻译成字符串         | [把数字翻译成字符串](./《剑指%20Offer》/46.把数字翻译成字符串.py) |          |          动态规划           |
 
 
 
@@ -61,6 +62,7 @@
 | #0010 |             正则表达式匹配             | [Regular expression matching](./0010.Regular-expression-matching.py) |   60%    |  🍅   |        递归（低效❗️）        |
 | #0046 |                 全排列                 |            [Permutations](./0046.Permutations.py)            |   62%    |  🍊   |           递归法            |
 | #0053 |               最大子序和               |        [Maximum subarray](./0053.Maximum-subarray.py)        |          |  🍏   |          动态规划           |
+| #0091 |                解码方法                |             [Decode ways](./0091.Decode-ways.py)             |          |  🍊   |          动态规划           |
 | #0101 |               对称二叉树               |          [Symmetric tree](./0101.Symmetric-tree.py)          |   32%    |  🍏   |       迭代法、递归法        |
 | #0021 |            合并两个有序链表            |  [Merge two sorted lists](./0021.Merge-two-sorted-lists.py)  |   63%    |  🍏   |       递归法、迭代法        |
 | #0169 |                 求众数                 |        [Majority element](./0169.Majority-element.py)        |   30%    |  🍏   |           迭代法            |
