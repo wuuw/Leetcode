@@ -55,6 +55,7 @@
 | #50  |       第一个只出现一次的字符       | [第一个只出现一次的字符](./《剑指%20Offer》/50.第一个只出现一次的字符.py) |          |                             |
 | #51  |           数组中的逆序对           |  [数组中的逆序对](./《剑指%20Offer》/51.数组中的逆序对.py)   |          |                             |
 | #52  |      两个链表的第一个公共节点      | [两个链表的第一个公共节点](./《剑指%20Offer》/52.两个链表的第一个公共节点.py) |          |            链表             |
+| #53  |        在排序数组中查找数字        | [在排序数组中查找数字](./《剑指%20Offer》/53.在排序数组中查找数字.py) |          |           二分法            |
 
 
 
@@ -64,33 +65,34 @@
 
 ##### 2. 百分比越高说明在真实面试中出现频率越高
 
-|  No   |                      题名                      |                           解决方法                           | 出现频率 | 难度 |            备注             |
-| :---: | :--------------------------------------------: | :----------------------------------------------------------: | :------: | :--: | :-------------------------: |
-| #0003 |              无重复字符的最长子串              | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |  🍊   |          动态规划           |
-| #0010 |                 正则表达式匹配                 | [Regular expression matching](./0010.Regular-expression-matching.py) |   60%    |  🍅   |        递归（低效❗️）        |
-| #0021 |                合并两个有序链表                |  [Merge two sorted lists](./0021.Merge-two-sorted-lists.py)  |   63%    |  🍏   |       递归法、迭代法        |
-| #0041 |                缺失的第一个正数                |  [First missing positive](./0041.First-missing-positive.py)  |          |  🍅   |            数组             |
-| #0046 |                     全排列                     |            [Permutations](./0046.Permutations.py)            |   62%    |  🍊   |           递归法            |
-| #0053 |                   最大子序和                   |        [Maximum subarray](./0053.Maximum-subarray.py)        |          |  🍏   |          动态规划           |
-| #0091 |                    解码方法                    |             [Decode ways](./0091.Decode-ways.py)             |          |  🍊   |          动态规划           |
-| #0101 |                   对称二叉树                   |          [Symmetric tree](./0101.Symmetric-tree.py)          |   32%    |  🍏   |       迭代法、递归法        |
-| #0160 |                    相交链表                    | [Intersection of two linked lists](./0160.Intersection-of-two-linked-lists.py) |          |  🍏   |            链表             |
-| #0169 |                     求众数                     |        [Majority element](./0169.Majority-element.py)        |   30%    |  🍏   |           迭代法            |
-| #0179 |                     最大数                     |          [Largest number](./0179.Largest-number.py)          |          |  🍊   |                             |
-| #0215 |            数组中的第 K 个最大元素             | [Kth largest element in an array](./0215.Kth-largest-element-in-an-array.py) |   47%    |  🍊   | 快速排序<br />（海量数据❗️） |
-| #0233 |                 数字 1 的个数                  |     [Number of digit one](./0233.Number-of-digit-one.py)     |          |  🍅   |                             |
-| #0263 |                      丑数                      |             [Ugly number](./0263.Ugly-number.py)             |   13%    |  🍏   |                             |
-| #0264 |                    丑数 II                     |          [Ugly number II](./0264.Ugly-number-ii.py)          |   18%    |  🍊   |                             |
-| #0295 |                 数据流的中位数                 | [Find median from data stream](./0295.Find-median-from-data-stream.py) |   41%    |  🍅   |         堆排序（❗️）         |
-| #0297 |            二叉树的序列化与反序列化            | [Serialize and deserialize<br />binary tree](./0297.Serialize-and-deserialize-binary-tree.py) |   27%    |  🍅   |           递归法            |
-| #0387 |            字符串中的第一个唯一字符            | [First unique character<br />in a string](./0387.First-unique-character-in-a-string.py) |          |  🍏   |                             |
-| #0400 |                  第 N 个数字                   |               [Nth digit](./0400.Nth-digit.py)               |          |  🍏   |                             |
-| #0426 | 通过次数将二叉搜索树<br />转化为排序的双向链表 | [Convert binary search tree to <br />sorted doubly-linked-list](./0426.Convert-binary-search-tree-to-sorted-doubly-linked-list.py) |   52%    |  🍊   |           递归法            |
-| #0442 |                数组中重复的数据                | [Find all duplicates in an array](./0442.Find-all-duplicates-in-an-array.py) |          |  🍊   |            数组             |
-| #0448 |            找到数组中所有消失的数字            |         [Find-all-numbers-disappeared-in-an-array]()         |          |  🍏   |            数组             |
-| #0459 |                 重复的子字符串                 | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
-| #0572 |                 另一个树的子树                 | [Subtree of another tree](./0572.Subtree-of-another-tree.py) |   24%    |  🍏   |           递归法            |
-| #0945 |              使数组唯一的最小增量              | [Minimum increment to make array unique](./0945.Minimum-increment-to-make-array-unique.py) |          |      |                             |
-| #0961 |                重复 N 次的元素                 | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
-| #1137 |               第 N 个泰波那契数                |  [N-th tribonacci number](./1137.N-th-tribonacci-number.py)  |          |  🍏   |          动态规划           |
+|  No   |                       题名                       |                           解决方法                           | 出现频率 | 难度 |            备注             |
+| :---: | :----------------------------------------------: | :----------------------------------------------------------: | :------: | :--: | :-------------------------: |
+| #0003 |               无重复字符的最长子串               | [Longest substring<br />without-repeating-characters](./0003.Longest-substring-without-repeating-characters.py) |          |  🍊   |          动态规划           |
+| #0010 |                  正则表达式匹配                  | [Regular expression matching](./0010.Regular-expression-matching.py) |   60%    |  🍅   |        递归（低效❗️）        |
+| #0021 |                 合并两个有序链表                 |  [Merge two sorted lists](./0021.Merge-two-sorted-lists.py)  |   63%    |  🍏   |       递归法、迭代法        |
+| #0034 | 在排序数组中查找元素 <br> 的第一个和最后一个位置 | [Find first and last position of element in sorted array](./0034.Find-first-and-last-position-of-element-in-sorted-array.py) |          |  🍊   |           二分法            |
+| #0041 |                 缺失的第一个正数                 |  [First missing positive](./0041.First-missing-positive.py)  |          |  🍅   |            数组             |
+| #0046 |                      全排列                      |            [Permutations](./0046.Permutations.py)            |   62%    |  🍊   |           递归法            |
+| #0053 |                    最大子序和                    |        [Maximum subarray](./0053.Maximum-subarray.py)        |          |  🍏   |          动态规划           |
+| #0091 |                     解码方法                     |             [Decode ways](./0091.Decode-ways.py)             |          |  🍊   |          动态规划           |
+| #0101 |                    对称二叉树                    |          [Symmetric tree](./0101.Symmetric-tree.py)          |   32%    |  🍏   |       迭代法、递归法        |
+| #0160 |                     相交链表                     | [Intersection of two linked lists](./0160.Intersection-of-two-linked-lists.py) |          |  🍏   |            链表             |
+| #0169 |                      求众数                      |        [Majority element](./0169.Majority-element.py)        |   30%    |  🍏   |           迭代法            |
+| #0179 |                      最大数                      |          [Largest number](./0179.Largest-number.py)          |          |  🍊   |                             |
+| #0215 |             数组中的第 K 个最大元素              | [Kth largest element in an array](./0215.Kth-largest-element-in-an-array.py) |   47%    |  🍊   | 快速排序<br />（海量数据❗️） |
+| #0233 |                  数字 1 的个数                   |     [Number of digit one](./0233.Number-of-digit-one.py)     |          |  🍅   |                             |
+| #0263 |                       丑数                       |             [Ugly number](./0263.Ugly-number.py)             |   13%    |  🍏   |                             |
+| #0264 |                     丑数 II                      |          [Ugly number II](./0264.Ugly-number-ii.py)          |   18%    |  🍊   |                             |
+| #0295 |                  数据流的中位数                  | [Find median from data stream](./0295.Find-median-from-data-stream.py) |   41%    |  🍅   |         堆排序（❗️）         |
+| #0297 |             二叉树的序列化与反序列化             | [Serialize and deserialize<br />binary tree](./0297.Serialize-and-deserialize-binary-tree.py) |   27%    |  🍅   |           递归法            |
+| #0387 |             字符串中的第一个唯一字符             | [First unique character<br />in a string](./0387.First-unique-character-in-a-string.py) |          |  🍏   |                             |
+| #0400 |                   第 N 个数字                    |               [Nth digit](./0400.Nth-digit.py)               |          |  🍏   |                             |
+| #0426 |  通过次数将二叉搜索树<br />转化为排序的双向链表  | [Convert binary search tree to <br />sorted doubly-linked-list](./0426.Convert-binary-search-tree-to-sorted-doubly-linked-list.py) |   52%    |  🍊   |           递归法            |
+| #0442 |                 数组中重复的数据                 | [Find all duplicates in an array](./0442.Find-all-duplicates-in-an-array.py) |          |  🍊   |            数组             |
+| #0448 |             找到数组中所有消失的数字             |         [Find-all-numbers-disappeared-in-an-array]()         |          |  🍏   |            数组             |
+| #0459 |                  重复的子字符串                  | [Repeated substring pattern](./0459.Repeated-substring-pattern.py) |          |  🍏   |                             |
+| #0572 |                  另一个树的子树                  | [Subtree of another tree](./0572.Subtree-of-another-tree.py) |   24%    |  🍏   |           递归法            |
+| #0945 |               使数组唯一的最小增量               | [Minimum increment to make array unique](./0945.Minimum-increment-to-make-array-unique.py) |          |      |                             |
+| #0961 |                 重复 N 次的元素                  | [N-repeated element<br />in size-2n array](./0961.N-repeated-element-in-size-2n-array.py) |   24%    |  🍏   |       迭代法，哈希表        |
+| #1137 |                第 N 个泰波那契数                 |  [N-th tribonacci number](./1137.N-th-tribonacci-number.py)  |          |  🍏   |          动态规划           |
 
